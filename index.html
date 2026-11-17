@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>AUREA ESTATES — Endereços extraordinários</title>
+  <meta name="description" content="AUREA ESTATES: uma curadoria de residências singulares, arquitetura marcante e lugares para chamar de casa.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AUREA ESTATES — Endereços extraordinários">
+  <meta property="og:description" content="Uma curadoria de arquitetura, luz e lugar.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=3">
+  <script src="/app.js?v=3" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="topo">
+    <a class="wordmark" href="#topo" aria-label="Aurea Estates, início"><span>AUREA</span><small>ESTATES</small></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">A casa</a><a href="#imoveis">Imóveis</a><a href="#curadoria">Curadoria</a><a href="#contato">Contato</a>
+      <a class="nav-cta" href="#imoveis">Explorar seleção <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art art art--hero photo-art" role="img" aria-label="Residência contemporânea junto ao mar ao pôr do sol"><img class="hero-photo" src="/public/images/hero.jpg" alt="" width="1536" height="1024" fetchpriority="high" decoding="async"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow eyebrow--light"><span></span> IMÓVEIS COM IDENTIDADE</p>
+        <h1 id="hero-title">Endereços<br><i>extraordinários.</i></h1>
+        <p class="hero-lede">Uma curadoria de casas que pertencem à paisagem — e à história de quem as escolhe.</p>
+        <div class="hero-actions"><a class="button button--light" href="#imoveis">Conheça a seleção <span aria-hidden="true">↗</span></a><a class="text-link text-link--light" href="#sobre">A essência AUREA <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-foot"><span>01 / 05 — COSTA CONTEMPORÂNEA</span><span>UMA CASA É UM MODO DE VER O MUNDO</span></div>
+      <span class="hero-index" aria-hidden="true">A.</span>
+    </section>
+
+    <section class="intro section-pad" id="sobre" aria-labelledby="sobre-title">
+      <div class="section-label reveal"><span>01</span><span>A CASA</span></div>
+      <div class="intro-grid">
+        <div class="intro-copy reveal">
+          <p class="eyebrow">UM OLHAR, UM LUGAR</p>
+          <h2 id="sobre-title">Há lugares que<br>parecem <i>encontrar</i><br>você.</h2>
+          <p class="body-copy">Nossa curadoria acompanha cada escolha com escuta próxima e informação clara, da primeira conversa aos detalhes de cada visita.</p>
+          <p class="body-copy">AUREA nasceu de uma ideia simples: a escolha de um imóvel começa muito antes da visita. Começa na luz que atravessa uma sala, no silêncio de um jardim, na forma como a arquitetura conversa com o entorno.</p>
+          <a class="text-link" href="#experiencia">Conheça nosso jeito <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="intro-visual reveal"><div class="art art--interior photo-art" role="img" aria-label="Sala de estar com madeira natural, jardim e luz dourada de fim de tarde"><img src="/public/images/ambiente.jpg" alt="" width="1402" height="1122" loading="lazy" decoding="async"></div><p class="image-caption">Luz de fim de tarde, matéria natural e espaço para respirar.</p></div>
+      </div>
+      <div class="manifesto"><span class="manifesto-mark">“</span><p>Não procuramos apenas uma planta. Procuramos o lugar onde a vida <i>ganha forma.</i></p><span class="manifesto-credit">NOSSA PROPOSTA DE VALOR</span></div>
+      <div class="mission-team"><div class="mission-copy reveal"><p class="eyebrow">NOSSA MISSÃO</p><h3>Escutar primeiro.<br><i>Apresentar com cuidado.</i></h3><p>Aproximar pessoas de lugares que façam sentido para sua vida, com informação transparente e curadoria feita com atenção.</p></div><div class="team-list" aria-label="Princípios da curadoria AUREA"><p class="eyebrow">NOSSO OLHAR</p><div class="team-member reveal"><span>01</span><p><strong>Escuta atenta</strong><small>PRIORIDADES ANTES DA BUSCA</small></p></div><div class="team-member reveal"><span>02</span><p><strong>Repertório arquitetônico</strong><small>DETALHES QUE MERECEM ATENÇÃO</small></p></div><div class="team-member reveal"><span>03</span><p><strong>Informação clara</strong><small>DECISÕES COM CONTEXTO</small></p></div></div></div>
+    </section>
+
+    <section class="catalog section-pad" id="imoveis" aria-labelledby="imoveis-title">
+      <div class="section-label section-label--light reveal"><span>02</span><span>SELEÇÃO AUREA</span></div>
+      <div class="catalog-heading reveal"><div><p class="eyebrow eyebrow--light">SELEÇÃO AUREA</p><h2 id="imoveis-title">Espaços com<br><i>presença.</i></h2></div><p class="catalog-intro">Residências escolhidas pela arquitetura, pela relação com a paisagem e pelos detalhes que tornam cada endereço singular.</p></div>
+      <form class="filters reveal" id="filters" aria-label="Filtrar imóveis">
+        <label>TIPO DE IMÓVEL<select id="type-filter"><option value="todos">Todos os tipos</option><option value="casa">Casa</option><option value="villa">Villa</option><option value="penthouse">Penthouse</option></select></label>
+        <label>VALOR MÁXIMO<select id="price-filter"><option value="todos">Qualquer valor</option><option value="7000000">Até R$ 7 milhões</option><option value="9000000">Até R$ 9 milhões</option><option value="13000000">Até R$ 13 milhões</option></select></label>
+        <button class="filter-reset" type="reset">Limpar filtros <span aria-hidden="true">↺</span></button>
+        <span class="filter-count" id="filter-count" aria-live="polite">3 imóveis</span>
+      </form>
+      <div class="property-grid" id="property-grid">
+        <article class="property-card reveal" data-type="casa" data-price="8900000">
+          <button class="property-image" type="button" data-property="horizonte" aria-label="Ver detalhes da Casa Horizonte"><span class="art art--house photo-art"><img src="/public/images/ambiente.jpg" alt="" width="1402" height="1122" loading="lazy" decoding="async"></span><span class="image-number">01 / 03</span><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="property-meta"><span>CASA · LITORAL</span><span>VISTA PARA O MAR</span></div><div class="property-title-row"><h3>Casa Horizonte</h3><span>R$ 8,9 mi</span></div><p>Linhas abertas para o mar, pátio protegido e materiais que envelhecem com beleza.</p><button class="details-link" type="button" data-property="horizonte">Explorar imóvel <span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="property-card reveal" data-type="villa" data-price="12400000">
+          <button class="property-image" type="button" data-property="atlantica" aria-label="Ver detalhes da Villa Atlântica"><span class="art art--villa photo-art"><img src="/public/images/hero.jpg" alt="" width="1536" height="1024" loading="lazy" decoding="async"></span><span class="image-number">02 / 03</span><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="property-meta"><span>VILLA · COSTA</span><span>À BEIRA-MAR</span></div><div class="property-title-row"><h3>Villa Atlântica</h3><span>R$ 12,4 mi</span></div><p>Um refúgio de volumes generosos, jardins tropicais e horizonte sem pressa.</p><button class="details-link" type="button" data-property="atlantica">Explorar imóvel <span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="property-card reveal" data-type="penthouse" data-price="6700000">
+          <button class="property-image" type="button" data-property="aurora" aria-label="Ver detalhes da Penthouse Aurora"><span class="art art--penthouse photo-art"><img src="/public/images/destaque-02.jpg" alt="" width="1536" height="1024" loading="lazy" decoding="async"></span><span class="image-number">03 / 03</span><span class="image-open" aria-hidden="true">↗</span></button>
+          <div class="property-meta"><span>PENTHOUSE · CIDADE</span><span>VISTA PANORÂMICA</span></div><div class="property-title-row"><h3>Penthouse Aurora</h3><span>R$ 6,7 mi</span></div><p>Terraço privativo, vista ampla e a cidade como parte da vida cotidiana.</p><button class="details-link" type="button" data-property="aurora">Explorar imóvel <span aria-hidden="true">↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="editorial section-pad" id="curadoria" aria-labelledby="curadoria-title">
+      <div class="section-label reveal"><span>03</span><span>MATÉRIA &amp; LUGAR</span></div>
+      <div class="editorial-heading reveal"><p class="eyebrow">CINCO OLHARES</p><h2 id="curadoria-title">A arquitetura<br>também se <i>sente.</i></h2><p class="body-copy">Texturas, proporções e paisagens revelam o caráter de cada endereço. A curadoria começa nos detalhes e se completa na forma como um lugar acolhe a vida.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item--wide reveal"><div class="art art--gallery-exterior photo-art"><img src="/public/images/hero.jpg" alt="Casa contemporânea voltada ao mar durante o pôr do sol" width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption><span>01</span> A chegada — volumes em diálogo com o jardim</figcaption></figure>
+        <figure class="gallery-item gallery-item--tall reveal"><div class="art art--gallery-room photo-art"><img src="/public/images/ambiente.jpg" alt="Sala serena com luz natural, madeira e vista para o jardim" width="1402" height="1122" loading="lazy" decoding="async"></div><figcaption><span>02</span> A pausa — luz filtrada sobre pedra e madeira</figcaption></figure>
+        <figure class="gallery-item reveal"><div class="art art--gallery-horizon photo-art"><img src="/public/images/hero.jpg" alt="Horizonte costeiro iluminado pelo sol baixo" width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption><span>03</span> O horizonte — paisagem que amplia o espaço</figcaption></figure>
+        <figure class="gallery-item gallery-item--offset reveal"><div class="art art--gallery-detail photo-art"><img src="/public/images/destaque-01.jpg" alt="Quarto de tons naturais com luz atravessando a janela" width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption><span>04</span> O detalhe — matéria escolhida para durar</figcaption></figure>
+        <figure class="gallery-item gallery-item--wide reveal"><div class="art art--gallery-terrace photo-art"><img src="/public/images/destaque-02.jpg" alt="Terraço com vista para a cidade ao entardecer" width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption><span>05</span> A cidade — um terraço entre céu e movimento</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="section-label reveal"><span>04</span><span>COMO ACOMPANHAMOS</span></div>
+      <div class="approach-layout"><div class="approach-copy reveal"><p class="eyebrow">DO PRIMEIRO OLHAR À VISITA</p><h2 id="experiencia-title">Clareza em cada<br><i>escolha.</i></h2><p class="body-copy">O atendimento começa pela escuta. Entender a rotina, o momento e o que faz um lugar parecer certo orienta cada recomendação.</p><a class="text-link" href="#contato">Converse com a AUREA <span aria-hidden="true">↗</span></a></div>
+        <ol class="steps"><li class="step reveal"><span>01</span><div><h3>Escuta atenta</h3><p>Uma conversa para conhecer prioridades, ritmo e expectativas, sem pressa e sem roteiro pronto.</p></div><span class="step-mark" aria-hidden="true">↗</span></li><li class="step reveal"><span>02</span><div><h3>Curadoria com contexto</h3><p>Uma seleção enxuta, apresentada com características e informações claras sobre cada espaço.</p></div><span class="step-mark" aria-hidden="true">↗</span></li><li class="step reveal"><span>03</span><div><h3>Visita no seu tempo</h3><p>Um convite para observar a luz, percorrer os ambientes e imaginar a vida acontecendo ali.</p></div><span class="step-mark" aria-hidden="true">↗</span></li><li class="step reveal"><span>04</span><div><h3>Próximos passos claros</h3><p>Orientações transparentes para que cada decisão seja feita com tranquilidade e informação.</p></div><span class="step-mark" aria-hidden="true">↗</span></li></ol></div>
+    </section>
+
+    <section class="voices section-pad" aria-labelledby="vozes-title">
+      <div class="section-label section-label--light reveal"><span>05</span><span>O JEITO AUREA</span></div><div class="voices-heading reveal"><p class="eyebrow eyebrow--light">NOSSO OLHAR</p><h2 id="vozes-title">Escolher com<br><i>intenção.</i></h2><p class="voices-note">Uma boa escolha começa pelo que realmente importa.</p></div>
+      <div class="quotes-grid"><article class="quote reveal"><span class="quote-mark" aria-hidden="true">01</span><h3>Escuta antes da busca</h3><p>Rotina, planos e preferências ajudam a encontrar espaços que fazem sentido de verdade.</p></article><article class="quote reveal"><span class="quote-mark" aria-hidden="true">02</span><h3>Curadoria com contexto</h3><p>Arquitetura, entorno e materiais apresentados com atenção a cada detalhe.</p></article><article class="quote reveal"><span class="quote-mark" aria-hidden="true">03</span><h3>Decisão bem informada</h3><p>Conversa clara para que cada etapa seja conduzida com segurança e tranquilidade.</p></article></div>
+    </section>
+
+    <section class="faq section-pad" id="perguntas" aria-labelledby="faq-title"><div class="section-label reveal"><span>06</span><span>PERGUNTAS FREQUENTES</span></div><div class="faq-layout"><div class="faq-heading reveal"><p class="eyebrow">ANTES DE ESCOLHER</p><h2 id="faq-title">Tudo às<br><i>claras.</i></h2><p>Algumas respostas para ajudar você a encontrar o próximo endereço.</p></div><div class="faq-list"><details class="faq-item reveal"><summary>Como funciona a curadoria?<span aria-hidden="true">+</span></summary><p>A busca considera seu estilo de vida, localização desejada, arquitetura e características essenciais do imóvel.</p></details><details class="faq-item reveal"><summary>Posso conhecer um imóvel pessoalmente?<span aria-hidden="true">+</span></summary><p>Sim. A visita pode ser organizada conforme a disponibilidade e as características de cada residência.</p></details><details class="faq-item reveal"><summary>Quais informações recebo sobre cada endereço?<span aria-hidden="true">+</span></summary><p>Você pode conhecer detalhes de arquitetura, ambientes, localização, valores e condições de cada imóvel.</p></details><details class="faq-item reveal"><summary>Como pedir mais informações?<span aria-hidden="true">+</span></summary><p>Preencha o formulário de contato com seus dados e o imóvel de interesse para preparar sua solicitação.</p></details></div></div></section>
+
+    <section class="contact section-pad" id="contato" aria-labelledby="contato-title"><div class="contact-art art art--contact" aria-hidden="true"><span></span><i></i><b></b></div><div class="section-label section-label--light reveal"><span>07</span><span>UM PRIMEIRO CONTATO</span></div><div class="contact-layout"><div class="contact-copy reveal"><p class="eyebrow eyebrow--light">ENCONTRE SEU PRÓXIMO ENDEREÇO</p><h2 id="contato-title">O próximo<br>endereço começa<br><i>com uma conversa.</i></h2><p>Conte o que você procura e prepare uma mensagem para dar início à conversa.</p></div><form class="interest-form reveal" id="interest-form"><p class="form-title">Conte o que procura.</p><label for="name">Seu nome</label><input id="name" name="name" autocomplete="name" required placeholder="Como podemos chamar você?" maxlength="80"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com" maxlength="120"><label for="interest">Imóvel de interesse</label><select id="interest" name="interest"><option value="">Ainda estou explorando</option><option>Casa Horizonte</option><option>Villa Atlântica</option><option>Penthouse Aurora</option></select><label for="message">O que gostaria de encontrar?</label><textarea id="message" name="message" rows="3" maxlength="500" placeholder="Conte um pouco, se quiser"></textarea><button class="button button--champagne" type="submit">Preparar mensagem <span aria-hidden="true">↗</span></button><p class="form-privacy">A MENSAGEM É PREPARADA NESTE NAVEGADOR; NADA É ENVIADO AUTOMATICAMENTE.</p><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark wordmark--footer" href="#topo" aria-label="Aurea Estates, voltar ao início"><span>AUREA</span><small>ESTATES</small></a><p class="footer-line">Endereços extraordinários.</p><nav aria-label="Links do rodapé"><a href="#sobre">A casa</a><a href="#imoveis">Imóveis</a><a href="#curadoria">Curadoria</a><a href="#contato">Contato</a></nav><div class="footer-bottom"><span>ENDEREÇOS EXTRAORDINÁRIOS</span><span>© 2026 AUREA ESTATES</span></div></footer>
+
+  <dialog class="property-dialog" id="property-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button><div class="dialog-art art" id="dialog-art" aria-hidden="true"></div><div class="dialog-content"><p class="eyebrow" id="dialog-type">IMÓVEL · AUREA ESTATES</p><h2 id="dialog-title">Imóvel</h2><p class="dialog-price" id="dialog-price"></p><p id="dialog-description"></p><ul id="dialog-features"></ul><p class="dialog-note">Valores e disponibilidade sujeitos a confirmação.</p><button class="button button--dark" id="dialog-interest" type="button">Solicitar informações <span aria-hidden="true">↗</span></button></div></dialog>
+</body>
+</html>
